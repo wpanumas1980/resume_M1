@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;800;900&display=swap');
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    background-color: lightseagreen;
+    /* border: 5px solid lightskyblue; */
+}
+
+.main-left {
+    width: 30%;
+    padding-left: 5px; 
+}
+.main-right {  
+    width: 70%;
+    background-color: rgb(226, 226, 226);
+    padding-left: 5px;
+}
+.main-right .my-name{
+    text-align: right;
+    padding-right: 10px;
+}
+.my-name h1{
+    background: lightseagreen;
+    color: white;
+    padding: 0 5px;
+}
+ul li{
+    font-size: medium;
+}
+.img-profile img {
+    display: block;
+    margin: 5px auto;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 100%;
+}
+.birth-date{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.birth-date p:last-child{
+    font-size: 14px;
+}
+.skill{
+    text-align: center;
+}
+
+
+.skill img{
+    width: 70px;
+}
+.skill img:first-child{
+    width: 60px;
+}
+.timeline .year{
+    float: left;
+    width: 30%;
+}
+.timeline .detail{
+    float: left;
+    width: 70%;
+}
+.detial li{
+    font-size: 50px;
+}
